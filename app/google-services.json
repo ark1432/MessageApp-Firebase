@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "172857843050",
+    "project_id": "fir-messageappex1",
+    "storage_bucket": "fir-messageappex1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:172857843050:android:4b05f6dd1e9151c0305913",
+        "android_client_info": {
+          "package_name": "com.example.firebasemessageappex1"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCJuYbyfKG0BUe_jvLda76EIYKIFjoDUls"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

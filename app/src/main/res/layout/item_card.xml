@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    
+    <data>
+        
+        <variable
+            name="chatGroup"
+            type="com.example.firebasemessageappex1.model.ChatGroup" />
+    </data>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="20dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/gp"
+                android:id="@+id/icon_group"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@{chatGroup.groupname}"
+                android:layout_gravity="center"
+                android:layout_marginLeft="20dp"
+                android:textColor="@color/black"
+                android:textSize="28dp"/>
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</layout>
